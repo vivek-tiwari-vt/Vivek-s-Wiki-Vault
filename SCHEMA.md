@@ -1,21 +1,20 @@
 # Wiki Schema
 
-## Domain
-Set the domain explicitly before large ingests. Until then, this wiki uses the
-source-wiki-builder default ingestion schema on top of llm-wiki.
+## Core Rule
 
-## Orientation
-- Read `SCHEMA.md`, `index.md`, and recent `log.md` before creating pages.
-- Search for existing slugs and aliases before creating a canonical page.
-- Prefer canonical pages over duplicate notes.
+One submitted source link becomes one markdown note.
 
-## Core Files
-- `index.md` is the top-level catalog.
-- `log.md` is append-only.
-- `sources/` stores source notes.
-- `inbox/` stores pending, failed, and needs-review notes.
+Successful ingests should create or update:
 
-## Canonical Folders
+- one primary note in the best-fit folder
+- one `index.md` update
+- one `log.md` append
+
+Do not create a separate source note plus extra project/company/concept files
+for the same link.
+
+## Active Folders
+
 - `projects/`
 - `recipes/`
 - `tools/`
@@ -27,15 +26,47 @@ source-wiki-builder default ingestion schema on top of llm-wiki.
 - `tutorials/`
 - `comparisons/`
 - `research-briefs/`
+- `sources/` only when nothing else fits
+- `inbox/failed/` and `inbox/needs-review/` for extraction problems
 
-## Naming
-- Lowercase file names
-- Hyphenated slugs
-- Normal markdown links for cross-links
+## Required Frontmatter
 
-## Update Rules
-- Create source notes for every ingested source.
-- Update `index.md` for every new canonical page.
-- Append to `log.md` for every ingest or major update.
-- Do not delete old pages unless explicitly requested.
-- Commit after every successful ingest.
+Every successful note should include:
+
+- `tags`
+- `source_link`
+- `context_link`
+- `source_type`
+- `kind`
+- `created`
+- `updated`
+
+## Tag Conventions
+
+Prefer nested tags for graph view and filtering:
+
+- `type/project`
+- `type/recipe`
+- `source/github`
+- `project/openfang`
+- `company/rightnow-ai`
+- `status/pre-1-0`
+
+## Default Sections
+
+Most notes should include:
+
+- Summary
+- What It Is
+- What It Does
+- What It's Used For
+- Key Details
+- Notes
+
+Recipe notes should include:
+
+- Summary
+- Recipe Details
+- Ingredients
+- Steps
+- Notes
