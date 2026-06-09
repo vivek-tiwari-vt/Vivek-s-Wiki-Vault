@@ -222,3 +222,10 @@
 - Captured Anthropic-authored framing on dynamic workflows as task-specific harnesses, example prompts, use cases, pairing with `/goal` and `/loop`, token budgets, and saving/sharing workflows via `.claude/workflows` or skills.
 - `index.md` already referenced the canonical note under Workflows.
 
+## [2026-06-09] duplicate review | X Article already captured
+
+- Source re-sent: `https://x.com/pawelhuryn/status/2064079508689358857`
+- Canonical note already exists: `workflows/claude-dynamic-workflows.md`
+- Existing note already contains status ID `2064079508689358857`, article ID `2064068045883228160`, source context, official Claude Code docs, Claude blog, and Product Compass research context.
+- Action: no duplicate note created; canonical one-note policy preserved.
+
