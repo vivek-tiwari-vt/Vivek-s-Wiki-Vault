@@ -264,3 +264,12 @@
 - Captured Evo's autoresearch optimize loop, the self-evolving meta-loop, shared harness object, harness edits, brief hints, gated stop recommendations, alerts, risks, and implementation guardrails.
 - Updated `index.md` under Projects.
 
+## [2026-06-09] update | X Article merged into existing workflow note
+
+- Updated: `workflows/agentic-coding-loops.md`
+- Source: `https://x.com/0xCodez/status/2064374643729773029` / X Article `https://x.com/i/article/2064357550225510400`
+- Duplicate/canonical handling: merged into existing `Agentic Coding Loops` note rather than creating a separate loop-engineering-roadmap note.
+- Captured the 14-step roadmap framing: readiness test, five building blocks, minimum viable loop, Ralph Wiggum failure mode, comprehension debt, cognitive surrender, and security tax.
+- Inspected embedded article images as a contact sheet and recorded the diagram themes: loop anatomy, tool-primitives mapping, evaluator-optimizer, minimum viable loop, loop-need decision gate, connectors, agent cycle, prompt-loop comparison, and `/goal` closing the loop.
+- Updated `index.md` workflow summary.
+

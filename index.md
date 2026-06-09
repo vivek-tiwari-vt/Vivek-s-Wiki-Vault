@@ -43,7 +43,7 @@
 
 ## Workflows
 
-- [Agentic Coding Loops](workflows/agentic-coding-loops.md) - Agent-control and loop-engineering systems that schedule coding agents, isolate worktrees, call skills/connectors, verify outputs, preserve state, and repeat with guardrails.
+- [Agentic Coding Loops](workflows/agentic-coding-loops.md) - Agent-control and loop-engineering systems that schedule coding agents, isolate worktrees, call skills/connectors, verify outputs, preserve state, and repeat with readiness tests, objective gates, budgets, and human approval boundaries.
 - [Best Practices for Claude Code](workflows/claude-code-best-practices.md) - Official Claude Code operating practices for verification, context management, subagents, checkpoints, and automation.
 - [Claude Code Skills Lessons](workflows/claude-code-skills-lessons.md) - Anthropic lessons on building reusable agent skills with gotchas, progressive disclosure, scripts, hooks, distribution, and measurement.
 - [Claude Dynamic Workflows](workflows/claude-dynamic-workflows.md) - Claude Code dynamic workflows: JavaScript-orchestrated subagent runs for scalable research, audits, migrations, and verified multi-stage agent work.

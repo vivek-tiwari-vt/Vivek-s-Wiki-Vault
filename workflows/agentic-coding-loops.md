@@ -22,6 +22,8 @@ research_sources:
   - https://x.com/i/article/2063850827694096385
   - https://x.com/addyosmani/status/2064127981161959567
   - https://x.com/i/article/2064122477731852288
+  - https://x.com/0xCodez/status/2064374643729773029
+  - https://x.com/i/article/2064357550225510400
   - https://code.claude.com/docs/en/goal.md
   - https://code.claude.com/docs/en/scheduled-tasks.md
   - https://code.claude.com/docs/en/workflows.md
@@ -41,6 +43,9 @@ unmapped_terms:
   - Gas Town
   - Loop Engineering
   - Codex Automations
+  - 14-step roadmap
+  - cognitive surrender
+  - comprehension debt
 ---
 
 # Agentic Coding Loops
@@ -53,6 +58,8 @@ Matt Van Horn's X Article, **"WTF Is a Loop? Peter Steinberger vs. Boris Cherny,
 
 Addy Osmani's X Article, **"Loop Engineering,"** sharpens that into a cross-tool architecture: instead of prompting a coding agent manually, the engineer designs the system that discovers work, schedules it, isolates parallel work, applies project skills, connects to real tools, delegates to subagents, verifies results, and remembers state outside the conversation.
 
+Codez's X Article, **"Loop engineering: the 14-step roadmap from prompter to loop designer,"** turns the same idea into an adoption checklist: first test whether a loop is justified, then assemble the five primitives, then build the smallest safe loop with one automation, one skill, one state file, and one objective gate.
+
 ## Source Context
 
 - Triggering source: Matt Van Horn's X status linking to an X Article.
@@ -62,7 +69,11 @@ Addy Osmani's X Article, **"Loop Engineering,"** sharpens that into a cross-tool
 - Additional source: Addy Osmani / `@addyosmani` shared the X Article **"Loop Engineering."**
 - Addy article ID: `2064122477731852288`; tweet/status ID: `2064127981161959567`.
 - Addy framing: loop engineering is replacing yourself as the person who prompts the agent; the engineer designs a recursive goal system that prompts, checks, records state, and continues.
+- Additional source: Codez / `@0xCodez` shared the X Article **"Loop engineering: the 14-step roadmap from prompter to loop designer."**
+- Codez article ID: `2064357550225510400`; tweet/status ID: `2064374643729773029`.
+- Codez framing: the practical roadmap has three tiers — decide whether a loop is warranted, learn the five building blocks, then build the minimum viable loop without removing human engineering judgment.
 - Metrics in the source posts/articles are source-reported and not independently reproduced here.
+- Article images from the Codez post included diagrams for loop structure, tool-primitives mapping, evaluator-optimizer flow, minimum viable loop, loop-need decision gate, connectors UI, agent loop cycle, prompt-loop comparison, and `/goal` closing the loop.
 
 ## What It Is
 
@@ -147,6 +158,26 @@ Addy's five-piece framing maps well onto implementation checklists:
 
 The most useful loop shape in the article is a morning automation that reads CI failures, issues, and recent commits; writes findings to a markdown file or board; opens isolated worktrees for worthwhile fixes; runs maker and verifier subagents; updates tickets/PRs through connectors; and leaves unresolved work in a triage inbox.
 
+## Adoption Checklist
+
+The Codez roadmap adds a useful constraint: **most developers should not build loops until the task passes a hard readiness test**. A loop is worth considering only when:
+
+1. **The task repeats**: setup cost must amortize across many runs, ideally at least weekly.
+2. **Verification is automated**: a test suite, type checker, linter, build, benchmark, or other gate can reject bad output without the human reading every diff.
+3. **The token/compute budget can absorb waste**: loops re-read context, retry, explore, and fan out, so they cost more than one good prompt.
+4. **The agent has senior-engineer tools**: logs, a reproduction environment, runtime access, and the ability to run the code it changes.
+5. **The loop has a hard stop**: iteration count, wall-clock limit, token/spend budget, or an objective completion condition.
+6. **A human reviews irreversible actions**: merges, deploys, dependency upgrades, auth, payments, and architecture changes require approval.
+
+The minimum viable loop is deliberately small:
+
+- **One automation**: a scheduled or event-triggered run.
+- **One skill**: project context, commands, rules, and gotchas the agent rereads every run.
+- **One state file**: markdown, JSON, issue tracker, or board that records what happened and what is next.
+- **One objective gate**: a deterministic check that can fail the work.
+
+Build order matters: get one manual run reliable, turn that procedure into a skill, wrap it in a loop, then schedule it. The practical success metric is not tasks attempted or tokens spent; it is **cost per accepted change**.
+
 ## Use Cases
 
 Good candidates for agentic coding loops:
@@ -210,6 +241,11 @@ A safe implementation should specify scope, inputs, allowed tools, verification 
 - **Permission drift**: keep destructive commands out of auto-approved tool lists.
 - **Context rot**: refresh state from git, CI, issue trackers, and tests rather than relying on old conversation context.
 - **Over-broad autonomy**: isolate runs in branches or worktrees and require explicit approval before publishing, deleting, deploying, or merging.
+- **Comprehension debt**: read diffs and spot-check gates; otherwise the repo can accumulate code the team no longer understands.
+- **Cognitive surrender**: loop design should preserve engineering judgment, not outsource judgment calls to an unattended pipeline.
+- **Skills as injection vectors**: do not auto-install community skills into unattended loops; audit the skill source and permission needs first.
+- **Credential leakage**: sanitize logs, avoid verbose secret-bearing output, and scope credentials tightly for loop-specific jobs.
+- **Permission scope creep**: periodically re-audit write permissions, deploy permissions, and connector scopes.
 
 ## Notes
 
@@ -217,6 +253,8 @@ A safe implementation should specify scope, inputs, allowed tools, verification 
 - The most reusable asset is often the skill or command called by the loop, not the loop itself.
 - This note treats social-post claims about individual usage, view counts, and PR counts as source context unless separately confirmed by official documentation or repository metadata.
 - Addy's most important warning is that loop design can either preserve engineering judgment or accelerate cognitive surrender. The loop should increase leverage while the engineer still reviews, understands, and owns what ships.
+- Codez's roadmap is useful because it names the negative case: if the task does not repeat, cannot be checked objectively, lacks a reproduction environment, or cannot tolerate token waste, keep it as a manual prompt.
+- The diagram set in the Codez article usefully distinguishes a prompt loop from an agentic loop: human-prompted work leaves the human as the loop; `/goal`, automations, state, and gates let the system close more of the loop while still keeping human approval at irreversible boundaries.
 
 ## Sources
 
@@ -224,6 +262,8 @@ A safe implementation should specify scope, inputs, allowed tools, verification 
 - [X Article: WTF Is a Loop? Peter Steinberger vs. Boris Cherny](https://x.com/i/article/2063850827694096385) — source article and synthesis of the loop discourse.
 - [Addy Osmani X status](https://x.com/addyosmani/status/2064127981161959567) — source post linking to the X Article.
 - [X Article: Loop Engineering](https://x.com/i/article/2064122477731852288) — source article framing loop engineering as designing the system that prompts, verifies, and remembers agent work.
+- [Codez X status](https://x.com/0xCodez/status/2064374643729773029) — source post linking to the X Article.
+- [X Article: Loop engineering: the 14-step roadmap from prompter to loop designer](https://x.com/i/article/2064357550225510400) — source article and practical adoption checklist for loop engineering.
 - [Claude Code docs: Keep Claude working toward a goal](https://code.claude.com/docs/en/goal.md) — official `/goal` behavior, completion condition, and evaluator model framing.
 - [Claude Code docs: Run prompts on a schedule](https://code.claude.com/docs/en/scheduled-tasks.md) — official `/loop` and scheduled-task behavior.
 - [Claude Code docs: Dynamic workflows](https://code.claude.com/docs/en/workflows.md) — official multi-agent workflow runtime and limits.
