@@ -282,3 +282,12 @@
 - Inspected embedded article images and recorded diagram themes. Public metadata did not expose the full prompt bodies that the article says are pasted into Claude Code.
 - Updated `index.md` under Workflows.
 
+## [2026-06-09] capture | X Article saved to wiki
+
+- Added: `projects/opik-self-correcting-agent-harness.md`
+- Source: `https://x.com/akshay_pachaar/status/2064051835636498924` / X Article `https://x.com/i/article/2063964921495523328`
+- Researched official Opik context from `comet-ml/opik`, GitHub API metadata, the README, Opik tracing docs, and Opik Ollie/Connect debugging docs.
+- Captured the self-correcting agent harness loop: bad trace, root cause, proposed diff, human approval, rerun original input, side-by-side trace comparison, and locked regression test.
+- Inspected embedded article images and recorded diagram themes: manual post-trace loop, Ollie self-correction loop, test suite UI, connected workflow, other-platforms comparison, Opik dashboards, and trace/span UI.
+- Updated `index.md` under Projects.
+

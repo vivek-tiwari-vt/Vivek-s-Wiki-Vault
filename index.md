@@ -13,6 +13,7 @@
 - [CrabTrap](projects/crabtrap.md) - Forward proxy for AI agents that enforces outbound network policies with static rules, LLM judgment, and audit logging.
 - [Floci](projects/floci.md) - Lightweight, open-source local AWS emulator and API-compatible runtime replacement for LocalStack Community-style local stacks.
 - [OpenFang](projects/openfang.md) - Rust-based agent operating system for long-running autonomous hands, channel integrations, and self-hosted operational workflows.
+- [Opik Self-Correcting Agent Harness](projects/opik-self-correcting-agent-harness.md) - Open-source AI observability/evals platform framed as a repair loop from bad trace to root cause, proposed fix, rerun, and locked regression test.
 - [PureMac](projects/puremac.md) - Native macOS cleaner and app-management utility focused on privacy-preserving system maintenance.
 - [United States Code as a Git Repository](projects/us-code.md) - Versioned U.S. federal legal text repository with commit-based legislative change history and Markdown representation of titles/chapters.
 - [RSSHub](projects/rsshub.md) - Self-hosted RSS aggregation and feed extraction platform for structured content syndication and ingestion workflows.
