@@ -20,9 +20,15 @@ canonical_name: Agentic Coding Loops
 research_sources:
   - https://x.com/mvanhorn/status/2063865685558903149
   - https://x.com/i/article/2063850827694096385
+  - https://x.com/addyosmani/status/2064127981161959567
+  - https://x.com/i/article/2064122477731852288
   - https://code.claude.com/docs/en/goal.md
   - https://code.claude.com/docs/en/scheduled-tasks.md
   - https://code.claude.com/docs/en/workflows.md
+  - https://developers.openai.com/codex/app/automations.md
+  - https://developers.openai.com/codex/app/worktrees.md
+  - https://developers.openai.com/codex/skills.md
+  - https://developers.openai.com/codex/subagents.md
   - https://react-lm.github.io/
   - https://github.com/Significant-Gravitas/AutoGPT
   - https://ghuntley.com/ralph/
@@ -33,6 +39,8 @@ unmapped_terms:
   - /goal
   - /loop
   - Gas Town
+  - Loop Engineering
+  - Codex Automations
 ---
 
 # Agentic Coding Loops
@@ -43,13 +51,18 @@ Agentic coding loops are repeatable control structures that prompt coding agents
 
 Matt Van Horn's X Article, **"WTF Is a Loop? Peter Steinberger vs. Boris Cherny,"** frames the current discourse around Peter Steinberger's line: "you shouldn't be prompting coding agents anymore; you should be designing loops that prompt your agents." The article argues that the term "loop" spans a spectrum: ReAct-style tool loops, AutoGPT-style autonomous goals, simple repeated prompt loops such as Ralph, productized `/goal` and `/loop` commands, and newer multi-agent orchestration loops with scheduling, durability, and verification.
 
+Addy Osmani's X Article, **"Loop Engineering,"** sharpens that into a cross-tool architecture: instead of prompting a coding agent manually, the engineer designs the system that discovers work, schedules it, isolates parallel work, applies project skills, connects to real tools, delegates to subagents, verifies results, and remembers state outside the conversation.
+
 ## Source Context
 
 - Triggering source: Matt Van Horn's X status linking to an X Article.
 - Article title: **"WTF Is a Loop? Peter Steinberger vs. Boris Cherny"**.
 - Article ID: `2063850827694096385`; tweet/status ID: `2063865685558903149`.
 - Source framing: the term "loop" is being used loosely in AI-coding discourse, but the durable idea is a program or scheduled process that prompts agents, reads results, verifies progress, and repeats with guardrails.
-- Metrics in the source post/article are source-reported and not independently reproduced here.
+- Additional source: Addy Osmani / `@addyosmani` shared the X Article **"Loop Engineering."**
+- Addy article ID: `2064122477731852288`; tweet/status ID: `2064127981161959567`.
+- Addy framing: loop engineering is replacing yourself as the person who prompts the agent; the engineer designs a recursive goal system that prompts, checks, records state, and continues.
+- Metrics in the source posts/articles are source-reported and not independently reproduced here.
 
 ## What It Is
 
@@ -84,6 +97,13 @@ Official Claude Code docs now expose several loop-like primitives:
 - `/loop`: reruns a prompt on an interval or at a Claude-chosen cadence; useful for polling PRs, builds, deployments, and maintenance tasks during a session.
 - Dynamic workflows: JavaScript-orchestrated subagent runs for larger multi-stage work where script variables hold intermediate state.
 
+Official OpenAI Codex docs now expose comparable pieces:
+
+- Automations: recurring background tasks that add findings to a triage inbox or archive themselves when there is nothing to report.
+- Worktrees: independent Git worktrees for parallel tasks so background work does not interfere with the local checkout.
+- Skills: reusable workflow packages with `SKILL.md`, optional scripts, and references.
+- Subagents: explicitly requested parallel specialized agents whose results are consolidated into one response.
+
 ## How It Works
 
 A robust coding loop usually follows this shape:
@@ -110,8 +130,22 @@ The source article distinguishes several layers of this idea:
 - **Productized goal loops**: commands like `/goal` make the completion condition explicit and use a small evaluator to decide whether to continue.
 - **Scheduled loops**: commands like `/loop` run prompts on a fixed or dynamically chosen cadence.
 - **Multi-agent orchestration loops**: systems such as dynamic workflows or Gas Town coordinate many agents, preserve state, and supervise long-running work.
+- **Loop engineering systems**: automations discover and triage work, worktrees isolate parallel execution, skills preserve project intent, connectors touch external systems, subagents split maker/checker roles, and a state file or board remembers what happened.
 
 The practical engineering challenge is not the existence of a loop; `while true` is old. The challenge is making the loop halt, verify itself, preserve useful state, avoid compounding bad commits, and operate within a budget.
+
+## Loop Engineering Components
+
+Addy's five-piece framing maps well onto implementation checklists:
+
+1. **Automations / heartbeat**: scheduled or event-triggered jobs discover work and decide whether anything deserves attention.
+2. **Worktrees / isolation**: parallel agents need separate branches/checkouts so they do not overwrite one another.
+3. **Skills / project memory**: reusable instructions encode conventions, build steps, review rubrics, and past incidents so each run does not re-derive them.
+4. **Plugins and connectors / real tools**: MCP connectors, issue trackers, databases, staging APIs, Slack, Linear, and PR systems let loops act in the actual environment.
+5. **Subagents / maker-checker split**: one agent explores or implements; another verifies against the spec, tests, skills, or security rubric.
+6. **External state / memory**: a markdown file, board, issue tracker, or durable state store holds what has been tried, what passed, and what is next.
+
+The most useful loop shape in the article is a morning automation that reads CI failures, issues, and recent commits; writes findings to a markdown file or board; opens isolated worktrees for worthwhile fixes; runs maker and verifier subagents; updates tickets/PRs through connectors; and leaves unresolved work in a triage inbox.
 
 ## Use Cases
 
@@ -154,6 +188,10 @@ Without those controls, loops become machines for producing confident mistakes, 
 - [Claude Code `/goal`](https://code.claude.com/docs/en/goal.md): session-scoped completion-condition loop that continues across turns until a validator model decides the condition is met.
 - [Claude Code `/loop`](https://code.claude.com/docs/en/scheduled-tasks.md): scheduled prompt repetition for polling, PR maintenance, deployment checks, and in-session background maintenance.
 - [Claude Dynamic Workflows](claude-dynamic-workflows.md): JavaScript-orchestrated subagent runs for multi-stage work with script-held intermediate state.
+- [OpenAI Codex Automations](https://developers.openai.com/codex/app/automations.md): recurring background tasks with triage inbox behavior and optional skill calls.
+- [OpenAI Codex Worktrees](https://developers.openai.com/codex/app/worktrees.md): Git-worktree-backed isolation for parallel/background Codex work.
+- [OpenAI Codex Skills](https://developers.openai.com/codex/skills.md): reusable workflow format based on `SKILL.md`, optional scripts, references, and progressive disclosure.
+- [OpenAI Codex Subagents](https://developers.openai.com/codex/subagents.md): explicitly requested parallel specialized agents with consolidated results.
 - [ReAct](https://react-lm.github.io/): early reasoning-and-acting pattern where a model alternates reasoning, actions, and observations.
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT): early autonomous-agent project that popularized goal-directed repeated agent loops.
 - [Ralph Wiggum loop](https://ghuntley.com/ralph/): Geoffrey Huntley's simple repeated-agent-loop pattern; useful as a minimal reference point.
@@ -178,14 +216,21 @@ A safe implementation should specify scope, inputs, allowed tools, verification 
 - The source article argues that "cron plus a decision-maker in the body" is the honest middle ground: scheduling alone is not new, but model-driven decisions inside a scheduled loop are the new operational concern.
 - The most reusable asset is often the skill or command called by the loop, not the loop itself.
 - This note treats social-post claims about individual usage, view counts, and PR counts as source context unless separately confirmed by official documentation or repository metadata.
+- Addy's most important warning is that loop design can either preserve engineering judgment or accelerate cognitive surrender. The loop should increase leverage while the engineer still reviews, understands, and owns what ships.
 
 ## Sources
 
 - [Matt Van Horn X status](https://x.com/mvanhorn/status/2063865685558903149) — source post linking to the X Article.
 - [X Article: WTF Is a Loop? Peter Steinberger vs. Boris Cherny](https://x.com/i/article/2063850827694096385) — source article and synthesis of the loop discourse.
+- [Addy Osmani X status](https://x.com/addyosmani/status/2064127981161959567) — source post linking to the X Article.
+- [X Article: Loop Engineering](https://x.com/i/article/2064122477731852288) — source article framing loop engineering as designing the system that prompts, verifies, and remembers agent work.
 - [Claude Code docs: Keep Claude working toward a goal](https://code.claude.com/docs/en/goal.md) — official `/goal` behavior, completion condition, and evaluator model framing.
 - [Claude Code docs: Run prompts on a schedule](https://code.claude.com/docs/en/scheduled-tasks.md) — official `/loop` and scheduled-task behavior.
 - [Claude Code docs: Dynamic workflows](https://code.claude.com/docs/en/workflows.md) — official multi-agent workflow runtime and limits.
+- [OpenAI Codex Automations docs](https://developers.openai.com/codex/app/automations.md) — official recurring-background-task behavior and triage inbox model.
+- [OpenAI Codex Worktrees docs](https://developers.openai.com/codex/app/worktrees.md) — official Git worktree isolation behavior.
+- [OpenAI Codex Skills docs](https://developers.openai.com/codex/skills.md) — official skill format and progressive disclosure model.
+- [OpenAI Codex Subagents docs](https://developers.openai.com/codex/subagents.md) — official subagent workflow behavior and token-cost caveat.
 - [ReAct project page](https://react-lm.github.io/) — source for reasoning-and-acting lineage.
 - [AutoGPT GitHub repository](https://github.com/Significant-Gravitas/AutoGPT) — early autonomous-agent loop reference.
 - [Geoffrey Huntley: Ralph Wiggum as a software engineer](https://ghuntley.com/ralph/) — Ralph loop reference.

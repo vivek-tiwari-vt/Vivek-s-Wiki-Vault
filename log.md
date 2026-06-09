@@ -247,3 +247,12 @@
 - Extracted article headings, source-reported examples, public metrics, and six article images; noted that full copy-paste prompt bodies were not all exposed as plain text in public metadata.
 - Updated `index.md` under Workflows.
 
+## [2026-06-09] update | X Article merged into existing workflow note
+
+- Updated: `workflows/agentic-coding-loops.md`
+- Source: `https://x.com/addyosmani/status/2064127981161959567` / X Article `https://x.com/i/article/2064122477731852288`
+- Duplicate/canonical handling: merged into existing `Agentic Coding Loops` note rather than creating a separate Loop Engineering note.
+- Researched official OpenAI Codex docs for Automations, Worktrees, Skills, and Subagents, and linked them alongside existing Claude Code `/goal`, `/loop`, and dynamic workflow docs.
+- Captured Addy Osmani's loop-engineering framing: automations as heartbeat, worktrees as isolation, skills as project memory, plugins/connectors as real-tool access, subagents as maker/checker split, and external state as memory.
+- Updated `index.md` workflow summary.
+
