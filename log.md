@@ -198,4 +198,11 @@
 - Researched canonical context from official Claude Code dynamic workflow docs, Claude launch blog, and Product Compass guide referenced by the source.
 - Captured workflow mechanics, ultracode trigger/effort behavior, operational limits, PM use cases, failure modes, reusable workflow patterns, and containment risks.
 - Updated `index.md` under Workflows.
+## [2026-06-09] capture | X Article saved to wiki
+
+- Added: `workflows/agentic-coding-loops.md`
+- Source: `https://x.com/mvanhorn/status/2063865685558903149` / X Article `https://x.com/i/article/2063850827694096385`
+- Researched canonical context from Claude Code `/goal`, `/loop`, and dynamic workflow docs; ReAct; AutoGPT; Geoffrey Huntley's Ralph loop; and Gas Town repository metadata.
+- Captured the loop spectrum, operational mechanics, use cases, guardrails, verification requirements, cost controls, and relationship between loops and reusable skills.
+- Updated `index.md` under Workflows.
 
