@@ -198,6 +198,7 @@
 - Researched canonical context from official Claude Code dynamic workflow docs, Claude launch blog, and Product Compass guide referenced by the source.
 - Captured workflow mechanics, ultracode trigger/effort behavior, operational limits, PM use cases, failure modes, reusable workflow patterns, and containment risks.
 - Updated `index.md` under Workflows.
+
 ## [2026-06-09] capture | X Article saved to wiki
 
 - Added: `workflows/agentic-coding-loops.md`
@@ -205,6 +206,7 @@
 - Researched canonical context from Claude Code `/goal`, `/loop`, and dynamic workflow docs; ReAct; AutoGPT; Geoffrey Huntley's Ralph loop; and Gas Town repository metadata.
 - Captured the loop spectrum, operational mechanics, use cases, guardrails, verification requirements, cost controls, and relationship between loops and reusable skills.
 - Updated `index.md` under Workflows.
+
 ## [2026-06-09] capture | X Article saved to wiki
 
 - Added: `projects/iii-agent-harness.md`
@@ -227,5 +229,12 @@
 - Source re-sent: `https://x.com/pawelhuryn/status/2064079508689358857`
 - Canonical note already exists: `workflows/claude-dynamic-workflows.md`
 - Existing note already contains status ID `2064079508689358857`, article ID `2064068045883228160`, source context, official Claude Code docs, Claude blog, and Product Compass research context.
+- Action: no duplicate note created; canonical one-note policy preserved.
+
+## [2026-06-09] duplicate review | X Article already captured
+
+- Source re-sent: `https://x.com/mvanhorn/status/2063865685558903149`
+- Canonical note already exists: `workflows/agentic-coding-loops.md`
+- Existing note already contains status ID `2063865685558903149`, article ID `2063850827694096385`, Claude Code `/goal`, `/loop`, and dynamic workflow docs, ReAct, AutoGPT, Ralph loop, and Gas Town context.
 - Action: no duplicate note created; canonical one-note policy preserved.
 
