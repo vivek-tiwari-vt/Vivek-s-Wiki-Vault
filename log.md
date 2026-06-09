@@ -273,3 +273,12 @@
 - Inspected embedded article images as a contact sheet and recorded the diagram themes: loop anatomy, tool-primitives mapping, evaluator-optimizer, minimum viable loop, loop-need decision gate, connectors, agent cycle, prompt-loop comparison, and `/goal` closing the loop.
 - Updated `index.md` workflow summary.
 
+## [2026-06-09] capture | X Article saved to wiki
+
+- Added: `workflows/ai-gtm-brain-claude-code.md`
+- Source: `https://x.com/nifinet/status/2064397495036440907` / X Article `https://x.com/i/article/2064389744268914689`
+- Researched official Claude Code docs for the CLI/agentic-coding context referenced by the article.
+- Captured the GTM brain workflow: sense, remember, judge, act, learn; contracts/adapters; account memory; dry-run-first outreach; outcome learning; implementation pattern; risks and guardrails.
+- Inspected embedded article images and recorded diagram themes. Public metadata did not expose the full prompt bodies that the article says are pasted into Claude Code.
+- Updated `index.md` under Workflows.
+

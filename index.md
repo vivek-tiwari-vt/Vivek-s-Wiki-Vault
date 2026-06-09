@@ -43,6 +43,7 @@
 
 ## Workflows
 
+- [AI GTM Brain with Claude Code](workflows/ai-gtm-brain-claude-code.md) - Command-line growth workflow that senses account movement, remembers history, judges why-now fit, drafts trigger-specific outreach, and learns from outcomes.
 - [Agentic Coding Loops](workflows/agentic-coding-loops.md) - Agent-control and loop-engineering systems that schedule coding agents, isolate worktrees, call skills/connectors, verify outputs, preserve state, and repeat with readiness tests, objective gates, budgets, and human approval boundaries.
 - [Best Practices for Claude Code](workflows/claude-code-best-practices.md) - Official Claude Code operating practices for verification, context management, subagents, checkpoints, and automation.
 - [Claude Code Skills Lessons](workflows/claude-code-skills-lessons.md) - Anthropic lessons on building reusable agent skills with gotchas, progressive disclosure, scripts, hooks, distribution, and measurement.
