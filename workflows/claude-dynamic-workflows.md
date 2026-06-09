@@ -18,8 +18,11 @@ canonical_name: Claude Dynamic Workflows
 research_sources:
   - https://x.com/PawelHuryn/status/2064079508689358857
   - https://x.com/i/article/2064068045883228160
+  - https://x.com/trq212/status/2061907337154367865
+  - https://x.com/i/article/2061850535708483585
   - https://code.claude.com/docs/en/workflows.md
   - https://claude.com/blog/introducing-dynamic-workflows-in-claude-code
+  - https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
   - https://www.productcompass.pm/p/claude-code-dynamic-workflows
 last_verified_at: "2026-06-09"
 unmapped_terms:
@@ -39,6 +42,8 @@ Paweł Huryn's X article frames the feature for product managers: he describes a
 - Triggering post: Paweł Huryn shared an X post that links to an X Article titled **"Claude Dynamic Workflows (not only) for PMs: The Ultimate Guide"**.
 - Author: Paweł Huryn / `@PawelHuryn`.
 - Article ID: `2064068045883228160`; tweet/status ID: `2064079508689358857`.
+- Additional canonical source: Thariq Shihipar / `@trq212` shared **"A harness for every task: dynamic workflows in Claude Code"**, also available on the Claude blog.
+- Thariq article ID: `2061850535708483585`; tweet/status ID: `2061907337154367865`.
 - Source claim: the practical value is that **"the model did the judgment, the code did the coordination."**
 - External full guide: Product Compass article, **"Dynamic Workflows for PMs: Orchestrate AI Agents in Claude Code"**.
 
@@ -98,7 +103,12 @@ Good workflow candidates are tasks where one stage's output decides the next sta
 - large migrations, framework swaps, API deprecations, and modernization passes across many files;
 - deep research where claims should be cross-checked across several sources;
 - product-discovery synthesis across many interviews, surveys, support tickets, or sales notes;
-- PRD or requirements red-team checks against source material;
+- PRD, blog post, or requirements red-team checks against source material and code;
+- root-cause investigations where separate agents inspect logs, files, data, and hypotheses;
+- triage at scale for incidents, support queues, bug reports, or recurring root causes;
+- qualitative sorting and pairwise ranking, such as resumes, tickets, or candidate ideas;
+- mining session history or review comments for recurring corrections and converting them into rules;
+- model/intelligence routing where a classifier chooses Sonnet, Opus, or smaller models by task complexity;
 - idea generation followed by filtering, judging, and prototype generation;
 - repetitive review workflows that should be saved and rerun as commands.
 
@@ -145,12 +155,19 @@ The X article names six reusable shapes:
 
 - `ultracode` can be used as a prompt trigger or effort setting in Claude Code. In official docs, the setting combines `xhigh` reasoning effort with automatic workflow orchestration for substantive tasks.
 - Workflows are inspectable and reusable: the script is written under the session directory, can be opened, and can be saved as a command.
+- Thariq's article emphasizes prompt specificity: ask for the pattern you want, such as quick adversarial review, tournament, fan-out-and-synthesize, or loop-until-done.
+- Repeated workflows can be paired with `/loop`; hard completion requirements can be expressed with `/goal`.
+- Token budgets can be prompted explicitly, for example asking the workflow to use a fixed cap such as `10k tokens`.
+- Saved workflow JavaScript can be distributed directly via `.claude/workflows/` or packaged inside a skill as a reusable template.
 - The Product Compass guide appears to expand the PM playbook beyond the X Article, including how to build, run, contain, and decide when not to use a workflow.
 
 ## Sources
 
 - [Paweł Huryn X status](https://x.com/PawelHuryn/status/2064079508689358857) — source post linking to the X Article.
 - [X Article: Claude Dynamic Workflows (not only) for PMs: The Ultimate Guide](https://x.com/i/article/2064068045883228160) — source article and PM framing.
+- [Thariq X status](https://x.com/trq212/status/2061907337154367865) — source post linking to the Anthropic-authored X Article.
+- [X Article: A harness for every task: dynamic workflows in Claude Code](https://x.com/i/article/2061850535708483585) — Anthropic/Claude Code team framing on patterns, use cases, and tips.
 - [Claude Code docs: Orchestrate subagents at scale with dynamic workflows](https://code.claude.com/docs/en/workflows.md) — official feature definition, usage, limits, controls, and cost notes.
+- [Claude blog: A harness for every task](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code) — official blog version of Thariq and Sid Bidasaria's article.
 - [Claude blog: Introducing dynamic workflows](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code) — official launch context.
 - [The Product Compass: Dynamic Workflows for PMs](https://www.productcompass.pm/p/claude-code-dynamic-workflows) — expanded guide referenced by the X Article.

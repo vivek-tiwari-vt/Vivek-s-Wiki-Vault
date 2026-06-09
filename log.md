@@ -213,3 +213,12 @@
 - Captured the composable worker-harness model, Worker/Function/Trigger primitives, production harness responsibilities, turn orchestration, swappable worker layers, use cases, risks, and guardrails.
 - Updated `index.md` under Projects.
 
+## [2026-06-09] update | X Article merged into existing workflow note
+
+- Updated: `workflows/claude-dynamic-workflows.md`
+- Source: `https://x.com/trq212/status/2061907337154367865` / X Article `https://x.com/i/article/2061850535708483585`
+- Duplicate/canonical handling: merged into existing `Claude Dynamic Workflows` note rather than creating a second note for the same topic.
+- Researched official Claude blog version: `https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code`.
+- Captured Anthropic-authored framing on dynamic workflows as task-specific harnesses, example prompts, use cases, pairing with `/goal` and `/loop`, token budgets, and saving/sharing workflows via `.claude/workflows` or skills.
+- `index.md` already referenced the canonical note under Workflows.
+
