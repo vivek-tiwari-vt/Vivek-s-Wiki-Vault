@@ -205,4 +205,11 @@
 - Researched canonical context from Claude Code `/goal`, `/loop`, and dynamic workflow docs; ReAct; AutoGPT; Geoffrey Huntley's Ralph loop; and Gas Town repository metadata.
 - Captured the loop spectrum, operational mechanics, use cases, guardrails, verification requirements, cost controls, and relationship between loops and reusable skills.
 - Updated `index.md` under Workflows.
+## [2026-06-09] capture | X Article saved to wiki
+
+- Added: `projects/iii-agent-harness.md`
+- Source: `https://x.com/mfpiccolo/status/2060069083878408689` / X Article `https://x.com/i/article/2060024515619397638`
+- Researched canonical context from `iii-hq/iii`, `iii-hq/workers`, official README content, GitHub API metadata, the `workers/harness` README, iii docs, and the workers registry.
+- Captured the composable worker-harness model, Worker/Function/Trigger primitives, production harness responsibilities, turn orchestration, swappable worker layers, use cases, risks, and guardrails.
+- Updated `index.md` under Projects.
 

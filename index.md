@@ -18,6 +18,7 @@
 - [RSSHub](projects/rsshub.md) - Self-hosted RSS aggregation and feed extraction platform for structured content syndication and ingestion workflows.
 - [BuilderPulse](projects/builderpulse.md) - Daily opportunity-research project that turns hundreds of public product and developer signals into one buildable idea with a why-now thesis.
 - [GitAgentProtocol](projects/gitagent-protocol.md) - Framework-agnostic, git-native standard for defining AI agents in git repositories.
+- [iii Agent Harness](projects/iii-agent-harness.md) - Composable iii worker-based agent harness architecture for replaceable providers, policy, approvals, sessions, budgets, hooks, and traceable turn orchestration.
 - [Skylos](projects/skylos.md) - Local-first static analysis and CI gate for dead code, secrets, security flaws, quality regressions, and AI-generated-code mistakes.
 - [CubeSandbox](projects/cubesandbox.md) - Rust-based sandbox service for AI agents that uses hardware-level isolation, fast startup, and E2B-compatible interfaces for secure code execution.
 - [Memoir](projects/memoir.md) - Git-like AI memory manager with hierarchical semantic paths, version-aware recall, and retrieval workflows for agent context.
