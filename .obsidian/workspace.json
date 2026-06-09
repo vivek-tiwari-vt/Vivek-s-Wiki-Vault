@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "143b6bbc1978a3e7",
+        "id": "be13ffffed8f697d",
         "type": "tabs",
         "children": [
           {
-            "id": "153a45711ead83f9",
+            "id": "d63d319a58514895",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "workflows/claude-code-skills-lessons.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "claude-code-skills-lessons"
             }
           }
         ]
@@ -176,10 +190,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "153a45711ead83f9",
+  "active": "d63d319a58514895",
   "lastOpenFiles": [
+    "workflows/claude-code-best-practices.md",
+    "projects/turbovec.md",
+    "research-briefs/practical-lessons-predicting-clicks-on-ads-at-facebook.md",
+    "research-briefs/vector-databases-for-rag.md",
+    "index.md",
+    "workflows/claude-code-skills-lessons.md",
+    "tutorials/openai-prompt-caching.md",
+    "tutorials/claude-prompting-best-practices.md",
+    "projects/agentmemory.md",
+    "Untitled",
+    "projects/claude-code.md",
+    "Untitled.canvas",
+    "projects/gitagent-protocol.md",
+    "projects/rsshub.md",
+    "projects/skylos.md",
+    "projects/memoir.md",
+    "projects/crawlee.md",
+    "projects/voxcpm.md",
+    "recipes/Domino’s Garlic Knot Recipe.md",
+    "HERMES_WIKI_SYSTEM_PROMPT.md",
+    "Untitled.base",
+    "projects/puremac.md",
+    "projects/cubesandbox.md",
     "projects/openfang.md",
-    "projects/openfang/alternatives.md",
-    "companies/rightnow-ai.md"
+    "projects/builderpulse.md",
+    "projects/crabtrap.md",
+    "projects/agent-lightning.md",
+    "Agent Lightning.md",
+    "SCHEMA.md"
   ]
 }
