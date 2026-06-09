@@ -21,6 +21,7 @@
 - [iii Agent Harness](projects/iii-agent-harness.md) - Composable iii worker-based agent harness architecture for replaceable providers, policy, approvals, sessions, budgets, hooks, and traceable turn orchestration.
 - [Skylos](projects/skylos.md) - Local-first static analysis and CI gate for dead code, secrets, security flaws, quality regressions, and AI-generated-code mistakes.
 - [CubeSandbox](projects/cubesandbox.md) - Rust-based sandbox service for AI agents that uses hardware-level isolation, fast startup, and E2B-compatible interfaces for secure code execution.
+- [Evo Autoresearch Workflow Loops](projects/evo-autoresearch-workflow-loops.md) - Open-source autoresearch orchestrator that runs measurable code-improvement experiments with tree search, parallel subagents, dynamic workflows, and a self-evolving meta-loop.
 - [Memoir](projects/memoir.md) - Git-like AI memory manager with hierarchical semantic paths, version-aware recall, and retrieval workflows for agent context.
 - [TurboVec](projects/turbovec.md) - Local Rust/Python vector index built on TurboQuant for compressed, SIMD-accelerated, filtered vector search in RAG pipelines.
 - [[VoxCPM|VoxCPM]] - Open-source tokenizer-free TTS and zero-shot voice-cloning project with API and production-oriented claims.

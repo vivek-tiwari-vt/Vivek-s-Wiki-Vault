@@ -256,3 +256,11 @@
 - Captured Addy Osmani's loop-engineering framing: automations as heartbeat, worktrees as isolation, skills as project memory, plugins/connectors as real-tool access, subagents as maker/checker split, and external state as memory.
 - Updated `index.md` workflow summary.
 
+## [2026-06-09] capture | X Article saved to wiki
+
+- Added: `projects/evo-autoresearch-workflow-loops.md`
+- Source: `https://x.com/alokbishoyi97/status/2064281952631525741` / X Article `https://x.com/i/article/2064264218858164224`
+- Researched official Evo context from `evo-hq/evo`, the README, GitHub API metadata, the official Evo site, Claude Code dynamic workflow docs, and the Claude blog dynamic workflow article.
+- Captured Evo's autoresearch optimize loop, the self-evolving meta-loop, shared harness object, harness edits, brief hints, gated stop recommendations, alerts, risks, and implementation guardrails.
+- Updated `index.md` under Projects.
+
