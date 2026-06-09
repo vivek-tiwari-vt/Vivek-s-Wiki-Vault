@@ -46,6 +46,7 @@
 - [Best Practices for Claude Code](workflows/claude-code-best-practices.md) - Official Claude Code operating practices for verification, context management, subagents, checkpoints, and automation.
 - [Claude Code Skills Lessons](workflows/claude-code-skills-lessons.md) - Anthropic lessons on building reusable agent skills with gotchas, progressive disclosure, scripts, hooks, distribution, and measurement.
 - [Claude Dynamic Workflows](workflows/claude-dynamic-workflows.md) - Claude Code dynamic workflows: JavaScript-orchestrated subagent runs for scalable research, audits, migrations, and verified multi-stage agent work.
+- [Hermes Standing Agent Prompts](workflows/hermes-standing-agent-prompts.md) - Prompt patterns for turning Hermes Agent into persistent scheduled infrastructure with triggers, budgets, escalation rules, messaging delivery, and reusable skills.
 
 ## Tutorials
 

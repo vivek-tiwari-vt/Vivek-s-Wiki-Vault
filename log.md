@@ -238,3 +238,12 @@
 - Existing note already contains status ID `2063865685558903149`, article ID `2063850827694096385`, Claude Code `/goal`, `/loop`, and dynamic workflow docs, ReAct, AutoGPT, Ralph loop, and Gas Town context.
 - Action: no duplicate note created; canonical one-note policy preserved.
 
+## [2026-06-09] capture | X Article saved to wiki
+
+- Added: `workflows/hermes-standing-agent-prompts.md`
+- Source: `https://x.com/Mnilax/status/2063697740526399833` / X Article `https://x.com/i/article/2063676886031495171`
+- Researched official Hermes Agent context from the GitHub repo/README plus cron, skills, messaging gateway, and configuration docs.
+- Captured the standing-agent prompt model: trigger, body, escalation rule, budget, delivery path, and safety boundary.
+- Extracted article headings, source-reported examples, public metrics, and six article images; noted that full copy-paste prompt bodies were not all exposed as plain text in public metadata.
+- Updated `index.md` under Workflows.
+
