@@ -15,7 +15,7 @@ context_link: https://x.com/i/article/2063850827694096385
 source_type: x-article
 kind: workflow
 created: "2026-06-09"
-updated: "2026-06-09"
+updated: "2026-06-10"
 canonical_name: Agentic Coding Loops
 research_sources:
   - https://x.com/mvanhorn/status/2063865685558903149
@@ -24,9 +24,18 @@ research_sources:
   - https://x.com/i/article/2064122477731852288
   - https://x.com/0xCodez/status/2064374643729773029
   - https://x.com/i/article/2064357550225510400
+  - https://x.com/RLanceMartin/status/2064397389189071163
+  - https://x.com/i/article/2064380553919676416
   - https://code.claude.com/docs/en/goal.md
   - https://code.claude.com/docs/en/scheduled-tasks.md
   - https://code.claude.com/docs/en/workflows.md
+  - https://code.claude.com/docs/en/memory.md
+  - https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5.md
+  - https://platform.claude.com/docs/en/managed-agents/overview.md
+  - https://platform.claude.com/docs/en/managed-agents/define-outcomes.md
+  - https://platform.claude.com/docs/en/managed-agents/memory.md
+  - https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md
+  - https://github.com/openai/parameter-golf
   - https://developers.openai.com/codex/app/automations.md
   - https://developers.openai.com/codex/app/worktrees.md
   - https://developers.openai.com/codex/skills.md
@@ -35,7 +44,7 @@ research_sources:
   - https://github.com/Significant-Gravitas/AutoGPT
   - https://ghuntley.com/ralph/
   - https://github.com/gastownhall/gastown
-last_verified_at: "2026-06-09"
+last_verified_at: "2026-06-10"
 unmapped_terms:
   - ralph loop
   - /goal
@@ -46,6 +55,10 @@ unmapped_terms:
   - 14-step roadmap
   - cognitive surrender
   - comprehension debt
+  - Claude Fable 5
+  - Claude Managed Agent Outcomes
+  - Parameter Golf
+  - Continual Learning Bench 1.0
 ---
 
 # Agentic Coding Loops
@@ -58,7 +71,7 @@ Matt Van Horn's X Article, **"WTF Is a Loop? Peter Steinberger vs. Boris Cherny,
 
 Addy Osmani's X Article, **"Loop Engineering,"** sharpens that into a cross-tool architecture: instead of prompting a coding agent manually, the engineer designs the system that discovers work, schedules it, isolates parallel work, applies project skills, connects to real tools, delegates to subagents, verifies results, and remembers state outside the conversation.
 
-Codez's X Article, **"Loop engineering: the 14-step roadmap from prompter to loop designer,"** turns the same idea into an adoption checklist: first test whether a loop is justified, then assemble the five primitives, then build the smallest safe loop with one automation, one skill, one state file, and one objective gate.
+Lance Martin's X Article, **"Designing loops with Fable 5,"** adds an Anthropic-internal model/harness perspective: the loop should be designed around external feedback and independent grading, not around the model merely self-critiquing its own output. Its two concrete patterns are goal/outcome-driven self-correction and memory as an outer loop across sessions.
 
 ## Source Context
 
