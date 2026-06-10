@@ -300,3 +300,12 @@
 - Researched official Claude Code `/goal`, Claude Code memory, Claude Fable 5 prompting, Claude Managed Agents, Outcomes, Managed Agent memory, self-hosted sandbox docs, and OpenAI Parameter Golf.
 - Inspected embedded article images and recorded the goal-driven-loop comparison table, Parameter Golf chart, and Continual Learning Bench chart. Exact benchmark deltas remain source-reported rather than independently reproduced.
 - Updated `index.md` workflow summary.
+
+## [2026-06-10] capture | X Article saved to wiki
+
+- Added: `projects/deep-agents-harness-engineering.md`
+- Source: `https://x.com/Vtrivedy10/status/2023805578561060992` / X Article `https://x.com/i/article/2022906014928904192`
+- Researched official Deep Agents Python and JavaScript repositories, Deep Agents Code docs, LangSmith tracing docs, LangChain middleware docs, Terminal Bench, Harbor, Daytona, and model-specific prompting references.
+- Captured the harness-engineering loop: LangSmith trace analysis, parallel trace-analyzer agents, build/self-verify loop, deterministic environment context injection, pre-completion verification middleware, loop detection middleware, and reasoning-budget sandwich.
+- Inspected embedded article images and recorded the Terminal Bench leaderboard highlight, self-verification loop, Trace Analyzer Skill flow, reasoning-sandwich diagram, and score-improvement table. Exact benchmark/ranking claims remain source-reported unless independently reproduced.
+- Updated `index.md` under Projects.

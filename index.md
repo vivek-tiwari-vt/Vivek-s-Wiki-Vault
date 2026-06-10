@@ -22,6 +22,7 @@
 - [iii Agent Harness](projects/iii-agent-harness.md) - Composable iii worker-based agent harness architecture for replaceable providers, policy, approvals, sessions, budgets, hooks, and traceable turn orchestration.
 - [Skylos](projects/skylos.md) - Local-first static analysis and CI gate for dead code, secrets, security flaws, quality regressions, and AI-generated-code mistakes.
 - [CubeSandbox](projects/cubesandbox.md) - Rust-based sandbox service for AI agents that uses hardware-level isolation, fast startup, and E2B-compatible interfaces for secure code execution.
+- [Deep Agents Harness Engineering](projects/deep-agents-harness-engineering.md) - LangChain Deep Agents coding-agent harness improvement pattern using LangSmith trace analysis, middleware, self-verification, context injection, loop detection, and reasoning-budget control.
 - [Evo Autoresearch Workflow Loops](projects/evo-autoresearch-workflow-loops.md) - Open-source autoresearch orchestrator that runs measurable code-improvement experiments with tree search, parallel subagents, dynamic workflows, and a self-evolving meta-loop.
 - [Memoir](projects/memoir.md) - Git-like AI memory manager with hierarchical semantic paths, version-aware recall, and retrieval workflows for agent context.
 - [TurboVec](projects/turbovec.md) - Local Rust/Python vector index built on TurboQuant for compressed, SIMD-accelerated, filtered vector search in RAG pipelines.
