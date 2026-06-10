@@ -309,3 +309,13 @@
 - Captured the harness-engineering loop: LangSmith trace analysis, parallel trace-analyzer agents, build/self-verify loop, deterministic environment context injection, pre-completion verification middleware, loop detection middleware, and reasoning-budget sandwich.
 - Inspected embedded article images and recorded the Terminal Bench leaderboard highlight, self-verification loop, Trace Analyzer Skill flow, reasoning-sandwich diagram, and score-improvement table. Exact benchmark/ranking claims remain source-reported unless independently reproduced.
 - Updated `index.md` under Projects.
+
+## [2026-06-10] capture | Instagram Reel saved to wiki
+
+- Added: `projects/claude-bughunter.md`
+- Source: `https://www.instagram.com/reel/DYqMtIhsxUC/`
+- Captured Instagram metadata: `2,125` likes, `38` comments, creator `githubsignals`, posted `May 22, 2026`; source URL canonicalized with volatile `igsh` token removed.
+- Researched official `elementalsouls/Claude-BugHunter` GitHub repository, GitHub API metadata, README, project homepage, Claude Code skills docs, Claude-OSINT, `shuvonsec/claude-bug-bounty`, and `public-skills-builder`.
+- Captured project scope: Claude Code / Agent Skills bundle for authorized bug hunting and external red-team work, currently reporting 71 skills, 15 slash commands, 681 disclosed-report patterns, 24 core vulnerability classes, Burp MCP integration, and multi-harness skill portability.
+- Inspected reel cover image and recorded visible GitHub repository/README context.
+- Updated `index.md` under Projects.

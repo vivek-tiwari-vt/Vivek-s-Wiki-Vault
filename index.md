@@ -10,6 +10,7 @@
 
 - [Agent Lightning](projects/agent-lightning.md) - Microsoft framework for optimizing existing AI agents across different stacks using reinforcement learning, prompt optimization, and selective multi-agent training.
 - [Claude Code](projects/claude-code.md) - Anthropic’s agentic coding assistant for terminal, IDE, and browser workflows.
+- [Claude BugHunter](projects/claude-bughunter.md) - Claude Code and agent-skill bundle for authorized bug hunting and external red-team workflows, with skills, commands, validation gates, reporting, and Burp MCP integration.
 - [CrabTrap](projects/crabtrap.md) - Forward proxy for AI agents that enforces outbound network policies with static rules, LLM judgment, and audit logging.
 - [Floci](projects/floci.md) - Lightweight, open-source local AWS emulator and API-compatible runtime replacement for LocalStack Community-style local stacks.
 - [OpenFang](projects/openfang.md) - Rust-based agent operating system for long-running autonomous hands, channel integrations, and self-hosted operational workflows.
