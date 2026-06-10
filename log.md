@@ -291,3 +291,12 @@
 - Inspected embedded article images and recorded diagram themes: manual post-trace loop, Ollie self-correction loop, test suite UI, connected workflow, other-platforms comparison, Opik dashboards, and trace/span UI.
 - Updated `index.md` under Projects.
 
+
+## [2026-06-10] update | X Article merged into existing workflow note
+
+- Updated: `workflows/agentic-coding-loops.md`
+- Source: `https://x.com/RLanceMartin/status/2064397389189071163` / X Article `https://x.com/i/article/2064380553919676416`
+- Duplicate/canonical handling: merged into existing `Agentic Coding Loops` note rather than creating a separate Fable 5 loop note, because it expands the same loop-engineering topic with self-correction and memory-loop evidence.
+- Researched official Claude Code `/goal`, Claude Code memory, Claude Fable 5 prompting, Claude Managed Agents, Outcomes, Managed Agent memory, self-hosted sandbox docs, and OpenAI Parameter Golf.
+- Inspected embedded article images and recorded the goal-driven-loop comparison table, Parameter Golf chart, and Continual Learning Bench chart. Exact benchmark deltas remain source-reported rather than independently reproduced.
+- Updated `index.md` workflow summary.
