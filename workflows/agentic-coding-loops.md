@@ -293,6 +293,9 @@ A safe implementation should specify scope, inputs, allowed tools, verification 
 - Addy's most important warning is that loop design can either preserve engineering judgment or accelerate cognitive surrender. The loop should increase leverage while the engineer still reviews, understands, and owns what ships.
 - Codez's roadmap is useful because it names the negative case: if the task does not repeat, cannot be checked objectively, lacks a reproduction environment, or cannot tolerate token waste, keep it as a manual prompt.
 - The diagram set in the Codez article usefully distinguishes a prompt loop from an agentic loop: human-prompted work leaves the human as the loop; `/goal`, automations, state, and gates let the system close more of the loop while still keeping human approval at irreversible boundaries.
+- Lance Martin's article reinforces the maker-checker split: the strongest loop is often not "the model critiques itself," but "the model acts while an independent grader model/sub-agent checks a concrete goal or rubric."
+- The memory lesson is procedural, not merely storage-related: useful memory moves from failure notes to investigated causes, verified facts, distilled rules, and later consultation. A memory store that is never consulted is just an audit trail, not a learning loop.
+- Fable 5, Claude Managed Agent, Parameter Golf, and Continual Learning Bench claims are recorded as source context plus official-doc/repo validation where available. Exact comparative benchmark outcomes from the X Article remain source-reported rather than independently reproduced here.
 
 ## Sources
 
@@ -307,6 +310,13 @@ A safe implementation should specify scope, inputs, allowed tools, verification 
 - [Claude Code docs: Keep Claude working toward a goal](https://code.claude.com/docs/en/goal.md) — official `/goal` behavior, completion condition, and evaluator model framing.
 - [Claude Code docs: Run prompts on a schedule](https://code.claude.com/docs/en/scheduled-tasks.md) — official `/loop` and scheduled-task behavior.
 - [Claude Code docs: Dynamic workflows](https://code.claude.com/docs/en/workflows.md) — official multi-agent workflow runtime and limits.
+- [Claude Code docs: How Claude remembers your project](https://code.claude.com/docs/en/memory.md) — official CLAUDE.md and auto-memory behavior for cross-session project knowledge.
+- [Anthropic docs: Prompting Claude Fable 5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5.md) — official Fable 5 guidance on long-horizon autonomy, verifier subagents, memory systems, and migration guardrails.
+- [Anthropic docs: Claude Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/overview.md) — official managed-agent harness, session, environment, tools, and infrastructure framing.
+- [Anthropic docs: Define Outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes.md) — official rubric/outcome loop behavior for managed agents.
+- [Anthropic docs: Managed-agent memory](https://platform.claude.com/docs/en/managed-agents/memory.md) — official shared filesystem memory behavior for sessions.
+- [Anthropic docs: Self-hosted sandboxes](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md) — official managed-agent self-hosted environment framing relevant to GPU-backed runs.
+- [OpenAI Parameter Golf](https://github.com/openai/parameter-golf) — official challenge referenced by the source article, with the 16MB artifact and 10-minute 8xH100 training constraints.
 - [OpenAI Codex Automations docs](https://developers.openai.com/codex/app/automations.md) — official recurring-background-task behavior and triage inbox model.
 - [OpenAI Codex Worktrees docs](https://developers.openai.com/codex/app/worktrees.md) — official Git worktree isolation behavior.
 - [OpenAI Codex Skills docs](https://developers.openai.com/codex/skills.md) — official skill format and progressive disclosure model.
