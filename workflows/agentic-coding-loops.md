@@ -71,6 +71,8 @@ Matt Van Horn's X Article, **"WTF Is a Loop? Peter Steinberger vs. Boris Cherny,
 
 Addy Osmani's X Article, **"Loop Engineering,"** sharpens that into a cross-tool architecture: instead of prompting a coding agent manually, the engineer designs the system that discovers work, schedules it, isolates parallel work, applies project skills, connects to real tools, delegates to subagents, verifies results, and remembers state outside the conversation.
 
+Codez's X Article, **"Loop engineering: the 14-step roadmap from prompter to loop designer,"** turns the same idea into an adoption checklist: first test whether a loop is justified, then assemble the five primitives, then build the smallest safe loop with one automation, one skill, one state file, and one objective gate.
+
 Lance Martin's X Article, **"Designing loops with Fable 5,"** adds an Anthropic-internal model/harness perspective: the loop should be designed around external feedback and independent grading, not around the model merely self-critiquing its own output. Its two concrete patterns are goal/outcome-driven self-correction and memory as an outer loop across sessions.
 
 ## Source Context
@@ -87,6 +89,12 @@ Lance Martin's X Article, **"Designing loops with Fable 5,"** adds an Anthropic-
 - Codez framing: the practical roadmap has three tiers — decide whether a loop is warranted, learn the five building blocks, then build the minimum viable loop without removing human engineering judgment.
 - Metrics in the source posts/articles are source-reported and not independently reproduced here.
 - Article images from the Codez post included diagrams for loop structure, tool-primitives mapping, evaluator-optimizer flow, minimum viable loop, loop-need decision gate, connectors UI, agent loop cycle, prompt-loop comparison, and `/goal` closing the loop.
+- Additional source: Lance Martin / `@RLanceMartin` shared the X Article **"Designing loops with Fable 5."**
+- Lance Martin article ID: `2064380553919676416`; tweet/status ID: `2064397389189071163`.
+- Lance Martin framing: newer mythos-class models should often be steered by designing feedback loops around the model rather than by ever-more-direct prompting; the two highlighted loop types are self-correction against a goal/rubric and memory across sessions.
+- Source-reported experiment context: on OpenAI Parameter Golf, the article says Fable 5 used Claude Managed Agents with an 8xH100 self-hosted sandbox and Outcomes grading, and improved the training pipeline materially more than Opus 4.7 over up to 20 experiments. Treat the exact model-comparison result as source-reported.
+- Source-reported memory context: on Continual Learning Bench 1.0 database exploration, the article says Fable 5 with memory reached a higher final score than Opus 4.7 and Sonnet 4.6; the chart shows Fable 5 with memory at `0.839`, Opus 4.7 with memory at `0.700`, and Sonnet 4.6 with memory at `0.364`.
+- Article images added a goal-driven-loop comparison table: Claude Code `/goal` uses a measurable end state, independent grader model, not-met verdict to start the next turn, turn/time bounds, grader feedback, and auto-clear or `/goal clear`; Claude Managed Agent Outcomes use a rubric with gradable criteria, an independent grader sub-agent, iterate → grade → revise, `max_iterations`, grader sub-agent feedback, and rubric pass/interruption exits.
 
 ## What It Is
 
@@ -120,6 +128,13 @@ Official Claude Code docs now expose several loop-like primitives:
 - `/goal`: sets a completion condition; Claude keeps working turn after turn until a small fast model confirms the condition is met.
 - `/loop`: reruns a prompt on an interval or at a Claude-chosen cadence; useful for polling PRs, builds, deployments, and maintenance tasks during a session.
 - Dynamic workflows: JavaScript-orchestrated subagent runs for larger multi-stage work where script variables hold intermediate state.
+- Memory: Claude Code sessions start with fresh context, but `CLAUDE.md` files and auto memory can carry project instructions, corrections, build commands, debugging insights, and workflow habits into future sessions.
+
+Official Claude Platform docs expose a more managed version of the same control pattern:
+
+- Claude Managed Agents provide the harness, managed or self-hosted environment, session runtime, tools, command execution, web browsing, code execution, prompt caching, and compaction for long-running asynchronous work.
+- Outcomes turn a goal into a rubric evaluated by an independent grader sub-agent, letting a session iterate, receive feedback, and stop only when the rubric passes or a limit/interruption occurs.
+- Managed-agent memory provides a mounted filesystem shared across sessions, which lets an agent turn past failures into checked facts and reusable rules rather than relying on a single conversation window.
 
 Official OpenAI Codex docs now expose comparable pieces:
 
@@ -145,6 +160,16 @@ while budget_remaining and iteration_count < max_iterations:
     otherwise:
         schedule or run the next iteration
 ```
+
+Lance Martin's article adds a useful design rule for stronger long-horizon models: do not rely on raw self-critique alone. Put the evaluator in the environment. In Claude Code `/goal`, that means the current conversation is checked after each turn against a measurable completion condition. In Claude Managed Agent Outcomes, that means a grader sub-agent in an independent context checks a rubric and feeds back what must be revised. In both cases the loop is: act, grade, revise, and stop only when the external condition passes.
+
+For memory loops, the pattern is slower and spans sessions:
+
+1. **Fail**: record an incorrect answer, bad assumption, or missing schema detail.
+2. **Investigate**: determine why the failure happened before continuing.
+3. **Verify**: turn the diagnosis into a checked fact.
+4. **Distill**: generalize the checked fact into a reusable rule.
+5. **Consult**: read the rule in later sessions instead of re-deriving it.
 
 The source article distinguishes several layers of this idea:
 
@@ -277,6 +302,8 @@ A safe implementation should specify scope, inputs, allowed tools, verification 
 - [X Article: Loop Engineering](https://x.com/i/article/2064122477731852288) — source article framing loop engineering as designing the system that prompts, verifies, and remembers agent work.
 - [Codez X status](https://x.com/0xCodez/status/2064374643729773029) — source post linking to the X Article.
 - [X Article: Loop engineering: the 14-step roadmap from prompter to loop designer](https://x.com/i/article/2064357550225510400) — source article and practical adoption checklist for loop engineering.
+- [Lance Martin X status](https://x.com/RLanceMartin/status/2064397389189071163) — source post linking to the X Article.
+- [X Article: Designing loops with Fable 5](https://x.com/i/article/2064380553919676416) — source article on self-correction loops, grader sub-agents, and memory as an outer loop across sessions.
 - [Claude Code docs: Keep Claude working toward a goal](https://code.claude.com/docs/en/goal.md) — official `/goal` behavior, completion condition, and evaluator model framing.
 - [Claude Code docs: Run prompts on a schedule](https://code.claude.com/docs/en/scheduled-tasks.md) — official `/loop` and scheduled-task behavior.
 - [Claude Code docs: Dynamic workflows](https://code.claude.com/docs/en/workflows.md) — official multi-agent workflow runtime and limits.
