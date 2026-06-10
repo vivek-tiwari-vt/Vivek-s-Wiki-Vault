@@ -18,6 +18,7 @@
 - [PureMac](projects/puremac.md) - Native macOS cleaner and app-management utility focused on privacy-preserving system maintenance.
 - [United States Code as a Git Repository](projects/us-code.md) - Versioned U.S. federal legal text repository with commit-based legislative change history and Markdown representation of titles/chapters.
 - [RSSHub](projects/rsshub.md) - Self-hosted RSS aggregation and feed extraction platform for structured content syndication and ingestion workflows.
+- [STE.GG](projects/ste-gg.md) - Browser-based steganography toolkit with encode/decode/analyze workflows, AI-assisted reveal/conceal modes, and broad image/audio/text metadata hiding methods.
 - [BuilderPulse](projects/builderpulse.md) - Daily opportunity-research project that turns hundreds of public product and developer signals into one buildable idea with a why-now thesis.
 - [GitAgentProtocol](projects/gitagent-protocol.md) - Framework-agnostic, git-native standard for defining AI agents in git repositories.
 - [iii Agent Harness](projects/iii-agent-harness.md) - Composable iii worker-based agent harness architecture for replaceable providers, policy, approvals, sessions, budgets, hooks, and traceable turn orchestration.

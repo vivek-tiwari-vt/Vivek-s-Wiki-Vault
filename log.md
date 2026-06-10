@@ -319,3 +319,14 @@
 - Captured project scope: Claude Code / Agent Skills bundle for authorized bug hunting and external red-team work, currently reporting 71 skills, 15 slash commands, 681 disclosed-report patterns, 24 core vulnerability classes, Burp MCP integration, and multi-harness skill portability.
 - Inspected reel cover image and recorded visible GitHub repository/README context.
 - Updated `index.md` under Projects.
+
+## [2026-06-10] capture | Instagram Reel saved to wiki
+
+- Added: `projects/ste-gg.md`
+- Source: `https://www.instagram.com/reel/DWnHQs-jqr3/`
+- Captured source metadata from browser DOM: creator `marc.kaz`, posted `2026-04-02T01:41:40.000Z` / visible label `April 1`, `2.8K` likes, and `45` comments.
+- Researched the official `https://ste.gg/` web app and `www` alias; inspected page source/UI for encode, decode, analyze, Nested Stegg, SPECTER, Text Lab, Agent, image/audio/text/file payload, zero-width Unicode, LSB/PVD/DCT/F5/spread-spectrum/palette/chroma/PNG-chunk/text-overlay, metadata, and artifact extraction features.
+- Inspected the Instagram reel page/video area and recorded visible `http://ste.gg/` and steganography-platform caption context.
+- Duplicate/canonical handling: no existing STE.GG note found; created new project note.
+- Uncertainty: Instagram/source caption says open-source, but no canonical STE.GG repository was found during this ingest; note marks that claim as source-reported and needs-review.
+- Updated `index.md` under Projects.
