@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflows/claude-code-skills-lessons.md",
+                "file": "workflows/agentic-coding-loops.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "claude-code-skills-lessons"
+              "title": "agentic-coding-loops"
             }
           }
         ]
@@ -192,12 +192,16 @@
   },
   "active": "d63d319a58514895",
   "lastOpenFiles": [
+    "projects/ste-gg.md",
+    "projects/claude-bughunter.md",
+    "workflows/hermes-standing-agent-prompts.md",
+    "index.md",
+    "workflows/claude-code-skills-lessons.md",
+    "projects/deep-agents-harness-engineering.md",
     "workflows/claude-code-best-practices.md",
     "projects/turbovec.md",
     "research-briefs/practical-lessons-predicting-clicks-on-ads-at-facebook.md",
     "research-briefs/vector-databases-for-rag.md",
-    "index.md",
-    "workflows/claude-code-skills-lessons.md",
     "tutorials/openai-prompt-caching.md",
     "tutorials/claude-prompting-best-practices.md",
     "projects/agentmemory.md",
@@ -216,10 +220,6 @@
     "projects/puremac.md",
     "projects/cubesandbox.md",
     "projects/openfang.md",
-    "projects/builderpulse.md",
-    "projects/crabtrap.md",
-    "projects/agent-lightning.md",
-    "Agent Lightning.md",
-    "SCHEMA.md"
+    "projects/builderpulse.md"
   ]
 }
