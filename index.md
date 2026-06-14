@@ -27,6 +27,7 @@
 - [Deep Agents Harness Engineering](projects/deep-agents-harness-engineering.md) - LangChain Deep Agents coding-agent harness improvement pattern using LangSmith trace analysis, middleware, self-verification, context injection, loop detection, and reasoning-budget control.
 - [Evo Autoresearch Workflow Loops](projects/evo-autoresearch-workflow-loops.md) - Open-source autoresearch orchestrator that runs measurable code-improvement experiments with tree search, parallel subagents, dynamic workflows, and a self-evolving meta-loop.
 - [Memoir](projects/memoir.md) - Git-like AI memory manager with hierarchical semantic paths, version-aware recall, and retrieval workflows for agent context.
+- [MCPify](projects/mcpify.md) - Open-source AI enablement compiler that analyzes existing apps, APIs, frontends, workflows, and databases to generate permission-aware MCP servers for agent-operable software.
 - [TurboVec](projects/turbovec.md) - Local Rust/Python vector index built on TurboQuant for compressed, SIMD-accelerated, filtered vector search in RAG pipelines.
 - [[VoxCPM|VoxCPM]] - Open-source tokenizer-free TTS and zero-shot voice-cloning project with API and production-oriented claims.
 - [[Crawlee]] - Web scraping and browser automation library for JavaScript/Node.js from Apify.

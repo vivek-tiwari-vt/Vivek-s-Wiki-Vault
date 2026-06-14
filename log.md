@@ -340,3 +340,15 @@
 - Captured Fusion API/router mechanics: `openrouter/fusion` model alias, `openrouter:fusion` server tool, `fusion` plugin, panel models, judge analysis, web_search/web_fetch availability, use cases, API examples, latency/cost cautions, and benchmark caveats.
 - Duplicate/canonical handling: no existing Fusion note or matching status ID found; created new tool note.
 - Updated `index.md` under Tools.
+
+## [2026-06-14] capture | Instagram Reel saved to wiki
+
+- Added: `projects/mcpify.md`
+- Source: `https://www.instagram.com/reel/DZWjLVPN_FD/`
+- Captured Instagram metadata from page HTML: creator `githubsignals`, posted June 8, 2026, 775 likes, 22 comments, media ID `3915471636391260483`, and caption describing MCPify as an AI enablement compiler.
+- Inspected reel cover image and recorded visible GitHub README context: MCPify logo, tagline, repository path, README navigation, demo/terminal image, and overview section.
+- Researched official `amarnath3003/MCPify` GitHub repository, README, npm `mcpify-cli` metadata, and project homepage.
+- Captured project scope: TypeScript AI enablement compiler for generating permission-aware MCP servers from existing apps, APIs, frontends, workflows, and databases.
+- Duplicate/canonical handling: no existing MCPify note or matching Instagram shortcode found; created new project note.
+- Uncertainty: CLI runtime behavior and generated MCP output quality were not verified locally; note records GitHub/npm license metadata mismatch and homepage/npm version mismatch.
+- Updated `index.md` under Projects.
