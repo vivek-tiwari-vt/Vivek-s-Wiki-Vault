@@ -1,7 +1,7 @@
 # Wiki Index
 
 > One-note-per-link knowledge vault.
-> Last updated: 2026-06-10
+> Last updated: 2026-06-14
 
 ## Projects
 
@@ -36,6 +36,8 @@
 - [[Domino’s Garlic Knot Recipe|6-Ingredient Domino’s Garlic Knot Recipe Reel]]
 
 ## Tools
+
+- [OpenRouter Fusion API](tools/openrouter-fusion-api.md) - Beta OpenRouter multi-model deliberation API/router that runs a panel of models, has a judge produce structured analysis, and returns a final answer through the outer model for research-heavy prompts.
 
 ## Products
 

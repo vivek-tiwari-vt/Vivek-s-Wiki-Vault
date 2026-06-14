@@ -330,3 +330,13 @@
 - Duplicate/canonical handling: no existing STE.GG note found; created new project note.
 - Uncertainty: Instagram/source caption says open-source, but no canonical STE.GG repository was found during this ingest; note marks that claim as source-reported and needs-review.
 - Updated `index.md` under Projects.
+
+## [2026-06-14] capture | X post saved to wiki
+
+- Added: `tools/openrouter-fusion-api.md`
+- Source: `https://x.com/OpenRouter/status/2065856853989270011`
+- Captured OpenRouter X metadata via `api.fxtwitter.com`: post text, date, author, engagement metrics, and attached benchmark image.
+- Researched official OpenRouter Fusion blog announcement, server-tool docs, plugin docs, Fusion Router docs, and DRACO benchmark reference.
+- Captured Fusion API/router mechanics: `openrouter/fusion` model alias, `openrouter:fusion` server tool, `fusion` plugin, panel models, judge analysis, web_search/web_fetch availability, use cases, API examples, latency/cost cautions, and benchmark caveats.
+- Duplicate/canonical handling: no existing Fusion note or matching status ID found; created new tool note.
+- Updated `index.md` under Tools.
