@@ -352,3 +352,13 @@
 - Duplicate/canonical handling: no existing MCPify note or matching Instagram shortcode found; created new project note.
 - Uncertainty: CLI runtime behavior and generated MCP output quality were not verified locally; note records GitHub/npm license metadata mismatch and homepage/npm version mismatch.
 - Updated `index.md` under Projects.
+
+## [2026-06-14] capture | Multi-source concept saved to wiki
+
+- Added: `concepts/open-knowledge-format.md`
+- Sources: Google Cloud OKF announcement, Karpathy LLM Wiki gist, and `GoogleCloudPlatform/knowledge-catalog/okf`.
+- Duplicate/canonical handling: user explicitly identified the three links as the same thing; created one canonical `Open Knowledge Format` concept note rather than separate source notes.
+- Researched Google Cloud blog article, raw Karpathy gist, OKF README, OKF `SPEC.md`, GitHub repository metadata, Apache-2.0 license, and reference enrichment-agent package metadata.
+- Captured OKF scope: vendor-neutral markdown + YAML frontmatter knowledge bundle format, concept documents, reserved `index.md`/`log.md`, cross-linking, progressive disclosure, producer/consumer independence, reference enrichment agent, visualizer, and sample bundles.
+- Uncertainty: OKF v0.1 is a draft; Google Cloud Knowledge Catalog OKF ingestion was not tested locally. Checked `okf/schema/okf-schema.json` and recorded that it returned 404; authoritative spec is `okf/SPEC.md`.
+- Updated `index.md` under Concepts.

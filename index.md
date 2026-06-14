@@ -48,6 +48,8 @@
 
 ## Concepts
 
+- [Open Knowledge Format](concepts/open-knowledge-format.md) - Draft vendor-neutral markdown-plus-YAML-frontmatter bundle format that formalizes the LLM-wiki pattern for portable agent/human knowledge exchange, catalogs, and metadata-as-code.
+
 ## Workflows
 
 - [AI GTM Brain with Claude Code](workflows/ai-gtm-brain-claude-code.md) - Command-line growth workflow that senses account movement, remembers history, judges why-now fit, drafts trigger-specific outreach, and learns from outcomes.
