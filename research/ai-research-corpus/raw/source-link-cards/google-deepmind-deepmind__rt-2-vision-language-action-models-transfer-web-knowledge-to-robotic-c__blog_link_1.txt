@@ -1,0 +1,6 @@
+Title: RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
+Lab: Google DeepMind / DeepMind
+Source type: blog_link
+URL: https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

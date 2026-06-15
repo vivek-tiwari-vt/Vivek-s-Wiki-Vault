@@ -1,0 +1,6 @@
+Title: High-Resolution Image Synthesis with Latent Diffusion Models / Stable Diffusion basis
+Lab: Stability AI / Runway / Generative Media
+Source type: blog_link
+URL: https://stability.ai/news/stable-diffusion-public-release
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

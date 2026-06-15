@@ -1,0 +1,6 @@
+Title: Constitutional AI: Harmlessness from AI Feedback
+Lab: Anthropic
+Source type: blog_link
+URL: https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

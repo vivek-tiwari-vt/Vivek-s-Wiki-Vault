@@ -1,0 +1,6 @@
+Title: Guidance
+Lab: Microsoft Research / Microsoft AI
+Source type: blog_link
+URL: https://github.com/guidance-ai/guidance
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

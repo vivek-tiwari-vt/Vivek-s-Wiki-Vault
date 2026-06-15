@@ -1,0 +1,6 @@
+Title: Qwen2.5 Technical Report
+Lab: Alibaba / Qwen / DAMO / ModelScope
+Source type: blog_link
+URL: https://qwenlm.github.io/blog/qwen2.5/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

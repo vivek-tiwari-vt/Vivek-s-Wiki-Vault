@@ -1,0 +1,6 @@
+Title: The Bitter Lesson
+Lab: Amii / Alberta / Sutton-linked research
+Source type: paper_link
+URL: http://incompleteideas.net/IncIdeas/BitterLesson.html
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

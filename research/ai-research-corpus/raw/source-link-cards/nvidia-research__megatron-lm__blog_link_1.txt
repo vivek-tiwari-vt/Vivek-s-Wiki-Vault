@@ -1,0 +1,6 @@
+Title: Megatron-LM
+Lab: NVIDIA Research
+Source type: blog_link
+URL: https://developer.nvidia.com/blog/scaling-language-model-training-to-a-trillion-parameters-using-megatron/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

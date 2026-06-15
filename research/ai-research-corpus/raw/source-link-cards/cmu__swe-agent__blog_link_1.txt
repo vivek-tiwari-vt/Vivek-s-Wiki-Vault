@@ -1,0 +1,6 @@
+Title: SWE-agent
+Lab: CMU
+Source type: blog_link
+URL: https://github.com/SWE-agent/SWE-agent
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

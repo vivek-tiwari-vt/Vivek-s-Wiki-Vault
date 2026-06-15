@@ -1,0 +1,6 @@
+Title: MME
+Lab: Shanghai Jiao Tong University
+Source type: blog_link
+URL: https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

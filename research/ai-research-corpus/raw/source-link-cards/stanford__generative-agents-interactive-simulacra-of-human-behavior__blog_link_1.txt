@@ -1,0 +1,6 @@
+Title: Generative Agents: Interactive Simulacra of Human Behavior
+Lab: Stanford
+Source type: blog_link
+URL: https://hai.stanford.edu/news/computational-agents-exhibit-believable-humanlike-behavior
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

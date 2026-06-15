@@ -1,0 +1,6 @@
+Title: LLaVA: Large Language and Vision Assistant
+Lab: UC Berkeley / LMSYS / BAIR
+Source type: blog_link
+URL: https://llava-vl.github.io/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

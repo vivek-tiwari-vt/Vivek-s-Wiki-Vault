@@ -1,0 +1,6 @@
+Title: ImageBind: One Embedding Space to Bind Them All
+Lab: Meta AI / FAIR
+Source type: blog_link
+URL: https://ai.meta.com/blog/imagebind-six-modalities-binding-ai/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

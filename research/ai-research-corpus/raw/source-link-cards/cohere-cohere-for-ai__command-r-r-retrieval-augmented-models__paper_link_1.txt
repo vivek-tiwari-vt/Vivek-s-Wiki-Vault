@@ -1,0 +1,6 @@
+Title: Command R / R+ retrieval-augmented models
+Lab: Cohere / Cohere for AI
+Source type: paper_link
+URL: https://huggingface.co/CohereForAI/c4ai-command-r-plus
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

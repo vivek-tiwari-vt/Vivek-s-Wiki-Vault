@@ -1,0 +1,6 @@
+Title: Attention Is All You Need
+Lab: Google Research / Google Brain
+Source type: blog_link
+URL: https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

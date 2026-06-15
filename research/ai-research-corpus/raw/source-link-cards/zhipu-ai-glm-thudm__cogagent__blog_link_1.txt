@@ -1,0 +1,6 @@
+Title: CogAgent
+Lab: Zhipu AI / GLM / THUDM
+Source type: blog_link
+URL: https://github.com/THUDM/CogVLM
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

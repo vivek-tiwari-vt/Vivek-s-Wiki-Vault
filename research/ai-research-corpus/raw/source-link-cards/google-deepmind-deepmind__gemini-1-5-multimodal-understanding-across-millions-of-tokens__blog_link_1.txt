@@ -1,0 +1,6 @@
+Title: Gemini 1.5: Multimodal Understanding across Millions of Tokens
+Lab: Google DeepMind / DeepMind
+Source type: blog_link
+URL: https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

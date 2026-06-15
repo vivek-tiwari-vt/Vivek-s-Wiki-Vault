@@ -1,0 +1,6 @@
+Title: AlphaCode
+Lab: Google DeepMind / DeepMind
+Source type: blog_link
+URL: https://deepmind.google/discover/blog/competitive-programming-with-alphacode/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

@@ -1,0 +1,6 @@
+Title: DeepSpeed / ZeRO
+Lab: Microsoft Research / Microsoft AI
+Source type: blog_link
+URL: https://www.microsoft.com/en-us/research/project/deepspeed/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

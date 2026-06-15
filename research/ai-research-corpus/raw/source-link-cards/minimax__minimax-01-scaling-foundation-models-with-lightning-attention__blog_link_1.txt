@@ -1,0 +1,6 @@
+Title: MiniMax-01: Scaling Foundation Models with Lightning Attention
+Lab: MiniMax
+Source type: blog_link
+URL: https://github.com/MiniMax-AI/MiniMax-01
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

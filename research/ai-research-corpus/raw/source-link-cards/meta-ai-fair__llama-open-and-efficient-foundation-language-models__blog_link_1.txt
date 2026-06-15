@@ -1,0 +1,6 @@
+Title: LLaMA: Open and Efficient Foundation Language Models
+Lab: Meta AI / FAIR
+Source type: blog_link
+URL: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

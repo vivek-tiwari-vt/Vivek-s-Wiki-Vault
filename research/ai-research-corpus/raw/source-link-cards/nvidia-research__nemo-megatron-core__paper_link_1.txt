@@ -1,0 +1,6 @@
+Title: NeMo / Megatron-Core
+Lab: NVIDIA Research
+Source type: paper_link
+URL: https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

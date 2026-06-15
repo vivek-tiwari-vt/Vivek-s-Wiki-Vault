@@ -1,0 +1,6 @@
+Title: ReAct: Synergizing Reasoning and Acting in Language Models
+Lab: Google Research / Google Brain
+Source type: blog_link
+URL: https://research.google/blog/react-synergizing-reasoning-and-acting-in-language-models/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

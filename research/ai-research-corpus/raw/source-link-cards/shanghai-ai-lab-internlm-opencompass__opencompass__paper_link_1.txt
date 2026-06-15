@@ -1,0 +1,6 @@
+Title: OpenCompass
+Lab: Shanghai AI Lab / InternLM / OpenCompass
+Source type: paper_link
+URL: https://github.com/open-compass/opencompass
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

@@ -1,0 +1,6 @@
+Title: Flamingo: A Visual Language Model for Few-Shot Learning
+Lab: Google DeepMind / DeepMind
+Source type: blog_link
+URL: https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

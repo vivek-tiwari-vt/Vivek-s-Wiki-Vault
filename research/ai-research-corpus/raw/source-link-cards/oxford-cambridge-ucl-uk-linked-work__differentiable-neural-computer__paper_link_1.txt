@@ -1,0 +1,6 @@
+Title: Differentiable Neural Computer
+Lab: Oxford / Cambridge / UCL / UK-linked work
+Source type: paper_link
+URL: https://www.nature.com/articles/nature20101
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

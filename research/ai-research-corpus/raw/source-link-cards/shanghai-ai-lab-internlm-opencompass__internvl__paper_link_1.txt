@@ -1,0 +1,6 @@
+Title: InternVL
+Lab: Shanghai AI Lab / InternLM / OpenCompass
+Source type: paper_link
+URL: https://github.com/OpenGVLab/InternVL
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

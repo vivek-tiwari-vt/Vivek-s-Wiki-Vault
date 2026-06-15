@@ -1,0 +1,6 @@
+Title: AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model
+Lab: Amazon Science
+Source type: blog_link
+URL: https://www.amazon.science/blog/alexatm-20b-parameter-model-sets-new-marks-in-few-shot-learning
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

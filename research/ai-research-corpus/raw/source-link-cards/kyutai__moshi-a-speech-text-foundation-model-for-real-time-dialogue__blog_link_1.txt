@@ -1,0 +1,6 @@
+Title: Moshi: A Speech-Text Foundation Model for Real-Time Dialogue
+Lab: Kyutai
+Source type: blog_link
+URL: https://kyutai.org/blog/2024-09-18-moshi-release
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-06-15T16:08:38.766745+00:00",
+  "curated_file": "/Users/vivektiwari-nexus3/prototype/curated_modern_ai_research_papers.md",
+  "paper_dir": "/Users/vivektiwari-nexus3/prototype/data/input/ai_research_papers",
+  "link_dir": "/Users/vivektiwari-nexus3/prototype/data/input/ai_research_links",
+  "items_parsed": 172,
+  "pdf_tasks": 142,
+  "pdf_downloaded": 142,
+  "pdf_existing": 0,
+  "pdf_failed": 0,
+  "link_cards_written": 137,
+  "elapsed_seconds": 54.32,
+  "results_log": "/Users/vivektiwari-nexus3/prototype/data/artifacts/ai_research_ingestion/download_log.jsonl",
+  "failed": []
+}

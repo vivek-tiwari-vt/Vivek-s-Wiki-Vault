@@ -1,0 +1,6 @@
+Title: Seed-Coder
+Lab: ByteDance Seed / Doubao
+Source type: blog_link
+URL: https://github.com/ByteDance-Seed/Seed-Coder
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

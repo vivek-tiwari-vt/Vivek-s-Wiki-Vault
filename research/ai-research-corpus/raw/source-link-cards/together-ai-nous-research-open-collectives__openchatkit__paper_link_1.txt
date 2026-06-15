@@ -1,0 +1,6 @@
+Title: OpenChatKit
+Lab: Together AI / Nous Research / Open Collectives
+Source type: paper_link
+URL: https://www.together.ai/blog/openchatkit
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

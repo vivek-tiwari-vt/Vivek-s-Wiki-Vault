@@ -1,0 +1,6 @@
+Title: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+Lab: Google Research / Google Brain
+Source type: blog_link
+URL: https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

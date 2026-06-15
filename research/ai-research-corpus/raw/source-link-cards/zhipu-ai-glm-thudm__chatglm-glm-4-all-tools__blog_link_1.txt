@@ -1,0 +1,6 @@
+Title: ChatGLM / GLM-4 All Tools
+Lab: Zhipu AI / GLM / THUDM
+Source type: blog_link
+URL: https://github.com/zai-org/GLM-4
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

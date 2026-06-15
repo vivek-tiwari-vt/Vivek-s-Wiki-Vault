@@ -1,0 +1,6 @@
+Title: Language Models are Few-Shot Learners / GPT-3
+Lab: OpenAI
+Source type: blog_link
+URL: https://openai.com/research/language-models-are-few-shot-learners
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

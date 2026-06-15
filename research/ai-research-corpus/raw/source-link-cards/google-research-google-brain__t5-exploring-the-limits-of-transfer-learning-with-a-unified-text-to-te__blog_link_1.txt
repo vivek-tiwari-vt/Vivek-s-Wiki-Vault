@@ -1,0 +1,6 @@
+Title: T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+Lab: Google Research / Google Brain
+Source type: blog_link
+URL: https://research.google/blog/exploring-transfer-learning-with-t5-the-text-to-text-transfer-transformer/
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

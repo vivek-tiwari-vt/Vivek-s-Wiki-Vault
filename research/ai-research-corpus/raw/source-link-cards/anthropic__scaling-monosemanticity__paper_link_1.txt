@@ -1,0 +1,6 @@
+Title: Scaling Monosemanticity
+Lab: Anthropic
+Source type: paper_link
+URL: https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

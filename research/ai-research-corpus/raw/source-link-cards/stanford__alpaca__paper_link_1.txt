@@ -1,0 +1,6 @@
+Title: Alpaca
+Lab: Stanford
+Source type: paper_link
+URL: https://crfm.stanford.edu/2023/03/13/alpaca.html
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

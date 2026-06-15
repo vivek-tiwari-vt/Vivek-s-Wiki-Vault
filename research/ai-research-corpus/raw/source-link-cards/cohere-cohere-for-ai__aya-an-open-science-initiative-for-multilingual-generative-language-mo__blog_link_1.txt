@@ -1,0 +1,6 @@
+Title: Aya: An Open Science Initiative for Multilingual Generative Language Models
+Lab: Cohere / Cohere for AI
+Source type: blog_link
+URL: https://cohere.com/research/aya
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.

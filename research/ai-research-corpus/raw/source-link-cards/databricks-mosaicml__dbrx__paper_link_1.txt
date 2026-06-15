@@ -1,0 +1,6 @@
+Title: DBRX
+Lab: Databricks / MosaicML
+Source type: paper_link
+URL: https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm
+
+Ingestion note: This is a source-link card for the WattsNext ingestion pipeline. Fetch/read the linked source during downstream research review if the raw web page is not mirrored locally.
