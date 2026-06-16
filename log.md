@@ -2,6 +2,34 @@
 
 > Append-only ingest and migration log.
 
+## [2026-06-16] research | PMST master architecture thesis created
+
+- Added: `research/ai-research-corpus/master-thesis-polymorphic-memory-substrate-transformer.md`
+- Synthesized a master LLM architecture thesis from the existing wiki corpus plus targeted arXiv/web research beyond the wiki.
+- Proposed Polymorphic Memory Substrate Transformer (PMST): local exact attention, MLA latent KV, recurrent/SSM stream, episodic vector-slot memory, semantic prototype memory, test-time neural memory, TurboQuant-style compression, mixture-of-head memory attention, verifier/contradiction heads, and a cost-aware memory controller.
+- Added what-if scenarios, falsifiable hypothesis, training thesis, evaluation plan, baselines, ablations, minimum viable prototype, and source list including Titans, Infini-attention, Transformer-XL, Compressive Transformer, RetNet, Hyena, Jamba, Griffin, Mamba-2, Samba, MoH, Ring Attention, and MLA/TurboQuant-related work.
+
+## [2026-06-16] research | MNT viability updated with TurboQuant and DeepSeek MLA
+
+- Updated: `research/ai-research-corpus/research-idea-memory-native-transformer.md`
+- Added TurboQuant as a candidate compression method for episodic/semantic memory vectors and older compressed KV summaries.
+- Added DeepSeek-V2/V3 Multi-head Latent Attention (MLA) as the working-memory compression mechanism and as inspiration for multi-head memory attention.
+- Added viability assessment: MNT is plausible as a staged research prototype if MNT-lite first beats static RAG and sliding-window/MLA baselines on sparse long-range recall at lower KV-plus-memory bytes.
+
+## [2026-06-16] research | Memory-native LLM architecture narrowed
+
+- Added: `research/ai-research-corpus/research-idea-memory-native-transformer.md`
+- Focus: LLM architecture and memory system only; explicitly removed agents, tools, APIs, and external action loops from the AMRRT direction.
+- Proposed Memory-Native Transformer (MNT): decoder-only LLM with working memory, episodic slot memory, semantic consolidated memory, and learned read/write/consolidate/forget gates.
+- Grounding: used existing AMRRT note, curated AI research corpus, and quick live arXiv checks for memory-augmented Transformers, persistent LLM memory, KV-cache compression, episodic memory, and latent memory architecture.
+
+## [2026-06-16] research | AMRRT plan sharpened
+
+- Updated: `research/ai-research-corpus/research-idea-adaptive-memory-routed-reasoning-transformer.md`
+- Source corpus: `research/ai-research-corpus/curated_modern_ai_research_papers.md`
+- Added precise hypothesis, minimal prototype design, training/evaluation setup, baselines, datasets, ablations, failure modes, implementation roadmap, and a cost-normalized argument for why adaptive memory routing could outperform static RAG/long-context baselines.
+- Verification: read existing AMRRT note and curated corpus, confirmed target path, and ran a quick live arXiv novelty check for adaptive retrieval, reflective memory retrieval, KV-cache memory management, and adaptive retrieval/router terms.
+
 ## [2026-05-15] capture | Instagram reel saved to wiki
 
 - Added: `projects/cocoindex.md`
